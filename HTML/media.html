@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon2.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    
+    <audio src="audio.mp3" controls></audio>
+
+<!-- 
+    Incase browser is not able to read mp3 file use this,
+
+    - Starts reading from top whichever it finds will play that 
+-->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+    </audio>
+
+    <video height="200" width="200" controls>
+        <source src="video.mp4" type="video/mp4">
+        
+        <source src="hi.mkv" type="video/mkv">
+        Browser doesnt support the video
+    </video>
+
+    <br>
+
+    <figure>
+        <img src="" alt=" Not Able">
+        <figcaption>Hello</figcaption>
+    </figure>
+</body>
+</html>
+
+
+

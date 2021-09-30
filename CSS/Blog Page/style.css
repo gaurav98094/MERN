@@ -1,0 +1,25 @@
+p{
+    color: red;
+}
+
+h1{
+    font-size: 20px;
+}
+
+/* 
+h4{
+    text-transform: uppercase;
+} */
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+#blog-description{
+    color: #314831;
+}

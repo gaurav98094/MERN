@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon1.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="" method="">
+
+        <div>
+            <label for="username">User Name : </label><br>
+            <input type="text" name="username" id="username" required placeholder="Name">
+        </div>      
+
+        <div>
+            <label for="password">Password : </label><br>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="phone_no">Phone No : </label><br>
+            <input type="text" name="phone_no" id="phone_no" required maxlength="10">
+        </div>  
+        
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" required>
+        </div>
+
+        <div>
+            <label for="range">Range Input</label><br>
+            <input type="range" min="0" max="10" value="0" step="2">
+        </div>
+
+        <div>
+            <label for="date">Date : </label><br>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="disabled">Country : </label><br>
+            <input type="text" id="disabled" value="India" disabled>
+        </div>
+
+        <h1>Radio Button And Check Box</h1>
+
+        <div>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" value="male" checked>Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="female">Other
+        </div>
+
+        <div>
+            <p>Course Done</p>
+            <input type="checkbox" name="course" value="c++">C++ <br>
+            <input type="checkbox" name="course" value="java">JAva <br>
+            <input type="checkbox" name="course" value="web" checked>Web Development 
+        </div>
+
+        <h1>Select , TextArea , Button</h1>
+        <div>
+            <select name="month_selected" id="">
+                <option value="jan">Jan</option>
+                <option value="feb" selected>Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="may">May</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="text-area">Your Experience</label><br>
+            <textarea name="text-inp" id="text-area" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" name="Submit" id="submit">
+        </div>
+        
+        <div>
+            <input type="reset" name="Reset">
+        </div>
+
+        <div>
+            <button type="button"><img src="https://th.bing.com/th/id/OIP.g77_8CCvqg2ihD9gLEq8nAHaGj?pid=ImgDet&rs=1" alt="LION" height="50px" width="200px"></button>
+        </div>
+    </form>
+</body>
+</html>
