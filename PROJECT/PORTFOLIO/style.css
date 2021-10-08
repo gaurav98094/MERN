@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/*  ------------------------------------------------------    */
+/*                        UTILITY CLASS                      */
+/*  ------------------------------------------------------  */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 0px 8px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a {
+    transition: color 0.5s,border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*  ------------------------------------------------------    */
+/*                          HEADER                           */
+/*  ------------------------------------------------------  */
+#body-header{
+    height: 65vh;
+    background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+
+#yourname{
+    color: white;
+    margin-top: 150px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+}
+
+.social-icon{
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.social-icon li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icon li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+/*  ------------------------------------------------------    */
+/*                        ABOUT SECTION                      */
+/*  ------------------------------------------------------  */
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 6px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    padding-top: 30px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
